@@ -1,55 +1,40 @@
-# Project Name
+# Complex-Engineering-Problem
 
-One-line description of what the project does and who it is for.
+Practice repository for CEP 10 (Open-Source Repository Documentation Improvement) of Open Source Technologies, Marwadi University.
 
 ## Features
-- Feature one
-- Feature two
-- Feature three
-
-## Tech Stack
-- Language / Framework: e.g., PHP (Laravel)
-- Database: e.g., MySQL
-- Tools: Git, Composer, npm
+- README with project overview and installation steps
+- Contribution guidelines with branch and commit conventions
+- Issue templates (bug report, feature request)
+- Pull request template
 
 ## Prerequisites
 - Git 2.x
-- PHP 8.x and Composer (or the runtime your project needs)
-- MySQL 8.x
+- A GitHub account
 
 ## Installation
 1. Clone the repository
-   ```bash
-   git clone https://github.com/<username>/<repo-name>.git
-   cd <repo-name>
-   ```
-2. Install dependencies
-   ```bash
-   composer install
-   ```
-3. Create the environment file and set database details
-   ```bash
-   cp .env.example .env
-   php artisan key:generate
-   ```
-4. Run migrations
-   ```bash
-   php artisan migrate
-   ```
-5. Start the application
-   ```bash
-   php artisan serve
-   ```
-   Open http://127.0.0.1:8000 in your browser.
-
-## Usage
-Describe the main workflow with a short example or screenshot.
+```bash
+   git clone https://github.com/bhagyashree1413/Complex-Engineering-Problem.git
+   cd Complex-Engineering-Problem
+```
+2. Create a new branch for your work
+```bash
+   git checkout -b docs/your-change
+```
+3. Make your changes, then commit and push
+```bash
+   git add .
+   git commit -m "docs: describe your change"
+   git push origin docs/your-change
+```
+4. Open a pull request on GitHub.
 
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is for academic use.
 
 ## Contact
-Maintainers: <name> (<email>)
+Maintainers: Bhagyashree, Palak, Anjali
